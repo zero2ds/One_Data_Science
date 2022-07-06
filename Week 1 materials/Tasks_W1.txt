@@ -1,0 +1,8 @@
+Week 1 Tasks:
+
+1.	What is the meaning of a variable? And how do we assign a value to a variable? 
+2.	Try to load the dataset "Hogwarts_enrolment_data.csv" into R.
+3.	Assign subset of the dataset into a variable.
+5.	Install R packages (vtable, also can install ggplot2, dplyr, magrittr if there is time)
+  a.	How do we install and load R packages
+  b.	Show summary table of the dataset using vtable's function
