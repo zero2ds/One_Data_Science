@@ -1,0 +1,25 @@
+# Week 2 tasks
+
+Before you start, make sure you have installed and loaded the following libraries:
+"RCurl", "dplyr", "magrittr", and "ggplot2" and load the dataset "Hogwarts_enrolment_data.csv".
+ 
+
+Task 1: Calculate the statistics (median, mean, quartiles) of the Muggle Studies grade for population of Slytherin. 
+# Hint: Use summary function: https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/summary 
+ 
+ 
+Task 2: Calculate the number of individuals left/right best handed in each of Hogwarts House 
+# Hint: use count operation (https://dplyr.tidyverse.org/reference/count.html) 
+ 
+Task 3: Use a bar plot chart to present the number of individuals in each of the Hogwarts Houses. 
+ 
+
+Task 4: The code below generates a scatterplot showing the relationship between scores of History of Magic versus Divination. It uses ggplot2 library, geom_point() (ref: http://www.sthda.com/english/wiki/ggplot2-scatter-plots-quick-start-guide-r-software-and-data-visualization) 
+ 
+ 
+ggplot(data, aes(x=History.of.Magic, y=Divination)) + geom_point() 
+ 
+ a) Run the code above to generate the scatterplot. 
+ 
+ b) Alter the previous graph, by coloring the points according to the student's House. 
+ 
