@@ -6,5 +6,7 @@ Students get to have hands-on experience with data wrangling, visualisation and 
 
 This repository contains the materials we use throughout the three weeks. 
 
+![](/Week2_Group_Photo.jpg)
+
 ![](/Week1_Group_Photo.jpeg)
 
