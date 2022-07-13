@@ -9,7 +9,7 @@ You can find the materials we use for Week 2 here:
 5. [Task solutions](https://github.com/zero2ds/One_Data_Science/blob/main/Week%202%20materials/Week2_tasks_solutions.pdf) for Week 2, prepared by Katarzyna Dziopa. 
 6. [Homework](https://github.com/zero2ds/One_Data_Science/blob/main/Week%202%20materials/Week2_Homework.pdf) (also a competition!) for Week 2, prepared by Asma Alfayez.
 
-![](/Keywords_DS_articles.jpg)
+![](Keywords_DS_articles.jpg)
 
 # 🏆 Competition/homework 🏆
 
