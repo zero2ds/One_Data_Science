@@ -1,0 +1,36 @@
+library(RCurl)
+library(dplyr)
+library(magrittr)
+library(ggplot2)
+
+
+## Task 1:Filter the data by your house , select History.of.Magic and Flying variables and produce a scatter plot of this data. Change the colour of your graph. Does there look like there’s a relationship between the two variables? 
+
+data <- read.csv("https://raw.githubusercontent.com/kai-lim/One-Data-Science/main/data/Hogwarts_enrolment_data.csv")
+
+slytherin.data <- data %>% filter(Hogwarts.House == "Slytherin") %>% select(History.of.Magic, Flying) 
+
+View(slytherin.data)
+
+ggplot(slytherin.data , aes(x=History.of.Magic, y=Flying)) + geom_point(color = "green")  
+
+
+# # Task 2: Calculate the r squared value and regression line equation. What does the R squared value and the regression equation tell us about the relationship between history of magic and flying in our house?
+
+slytherin.lm <- lm(formula = Flying ~ History.of.Magic , data = slytherin.data) 
+
+summary(slytherine.lm)
+
+
+# Task 3: Add regression line 
+
+ggplot(slytherin.data , aes(x=History.of.Magic, y=Flying)) + geom_point(color = "green")  +
+  geom_smooth(method = "lm", formula = y ~ x  , se = FALSE)
+
+
+# Task 4: Change the title , x and y  labs 
+
+ggplot(slytherin.data , aes(x=History.of.Magic, y=Flying)) + geom_point(color = "green")  +
+  geom_smooth(method = "lm", formula = y ~ x  , se = FALSE)+
+  ggtitle("Scatter Plot showing History of Magic against Flying") +
+  xlab("History of Magic") + ylab("Flying")
