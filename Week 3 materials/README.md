@@ -24,3 +24,7 @@ We are pleased to announce the three winners of the Week 2 competition (in alpha
 ![](KhairahKhatun)
 
 Congratulations to all of you!
+
+## Word cloud generated from the post-course survey: List out 3-5 keywords that you can think of about data science
+
+![](post_course_keywords.jpg)
