@@ -5,6 +5,7 @@ The materials for this week are:
 2. [Introduction to statistical model](https://github.com/zero2ds/One_Data_Science/blob/main/Week%203%20materials/One%20Data%20Science%20Programme%20Week%203_intro_to_stats.pdf) prepared by Nanaki Maitra. 
 3. [Task sheet](https://github.com/zero2ds/One_Data_Science/blob/main/Week%203%20materials/tasks.txt) prepared by Millie Wagstaff.
 4. [Task solutions](https://github.com/zero2ds/One_Data_Science/blob/main/Week%203%20materials/Tasks_solutions.pdf) prepared by Millie Wagstaff
+5. [W2 homework review and competition winners announcement](https://github.com/zero2ds/One_Data_Science/blob/main/Week%203%20materials/W2%20homework%20and%20competition.pdf) by Kai Lim
 
 
 ## 🏆 Competition winners 🏆
